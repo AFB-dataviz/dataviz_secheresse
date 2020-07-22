@@ -7,5 +7,6 @@ Les sujets couverts sont l'évolution des observations des différentes modalit�
 Le traitement des données et la création des graphiques ont été réalisés avec le logiciel [R](https://www.r-project.org/). Le déroulement des tâches est géré grâce au package [drake](https://github.com/ropensci/drake), la préparation des données est réalisée avec les packages du [tidyverse](https://github.com/tidyverse/tidyverse), la création des graphiques interactifs a été réalisée avec [plotly](https://github.com/ropensci/plotly).
 
 Contributeurs:
-  Delphine Node
-  Cédric Mondy (OFB)
+
+- Delphine Node
+- Cédric Mondy (OFB)
