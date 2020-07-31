@@ -150,3 +150,10 @@ clean_onde <- function(data_onde) {
         )
     )                   
 }
+
+unquote2character <- function(x) {
+  require(stringr)
+  require(rlang)
+  
+  stringr::str_remove(rlang::expr_text(rlang::enquo(x)), pattern = "~")
+}

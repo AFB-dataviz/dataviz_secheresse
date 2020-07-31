@@ -54,9 +54,3 @@ save_plotly <- function(x, file, file_static = NULL, title) {
   c(file, file_static)
 }
 
-unquote2character <- function(x) {
-  require(stringr)
-  require(rlang)
-  
-  stringr::str_remove(rlang::expr_text(rlang::enquo(x)), pattern = "~")
-}
